@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   var bmi = weigh / (heigh * heigh);
   req_name = req.body.Name;
 //   bmi = bmi.toFixed();
-  res.send(  req_name + ' your bmi is ' + bmi);
+  res.send("hello " +   req_name + ' your bmi is ' + bmi);
  })
 
 
